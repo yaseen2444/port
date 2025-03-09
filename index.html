@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/logo.jpg">
+    <title>Yaseen.Mohammad - Portfolio</title>
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+
+    <!-- Styling CSS -->
+
+    <!-- Theme 1 -->
+    <link rel="stylesheet" id="themeStylesheet" href="./assets/css/style.css">
+
+    <!-- Theme 2 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-two.css"> -->
+
+    <!-- Theme 3 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-three.css"> -->
+
+</head>
+<style>
+    .typed-text {
+        font-weight: 600;
+        color: #4070f4; /* Adjust this color to match your theme */
+    }
+    
+    .cursor {
+        display: inline-block;
+        width: 3px;
+        background-color: #333;
+        margin-left: 2px;
+        animation: blink 1s infinite;
+    }
+    
+    @keyframes blink {
+        0% { background-color: #333; }
+        49% { background-color: #333; }
+        50% { background-color: transparent; }
+        99% { background-color: transparent; }
+        100% { background-color: #333; }
+    }
+</style>
+
+<body>
+
+    <header>
+
+        <div>
+            <a href="./index.html"><span class="logo" style="font-size: 24px; font-weight: bold;">ML-Engineer</span></a>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#blogs">Blogs</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+<section class="hero-section" id="home">
+    <div>
+        <div>
+            <h4 title="Hello, How are you?">Hi, There!</h4>
+            <h2 class="hero-section__title">I'm <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+            <p class="hero-section__desc">I'm Mohammad Yaseen, a passionate Machine Learning Engineer and Data Scientist dedicated to building AI-driven solutions that make a real impact.</p>
+        </div>
+
+        <ul class="social-icons">
+            <!-- Social Icons -->
+            <li>
+                <a href="https://medium.com/@yaseenmohammadap37" target="_blank">
+                    <i class="fa-brands fa-medium"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/yaseen-mohammad-0a77992b1/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/yaseen2444" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://www.kaggle.com/yaseenmd" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png" alt="Kaggle" width="30">
+                </a>
+                
+            </li>
+        </ul>
+
+        <div class="hero-buttons">
+            <button class="btn btn-primary" title="Got a cool project? Let's work together!">Hire
+                me</button>
+            <button class="btn btn-dark-outlined">
+                <a href="./assets/my resume/my resume.pdf" download>Download CV</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="hero-img">
+        <img src="assets/img/Sudharsan.jpg" alt="Sudharsan-portfolio" width="350">
+    </div>
+</section>
+
+        <!-- About Section  -->
+        <section class="about-section" id="about">
+
+            <div class="about-img">
+                <img src="assets/img/Sudharsan.jpg" alt="Sudharsan-portfolio">
+            </div>
+
+            <div class="about-content">
+                <h4>About Me</h4>
+                <h2>I am ML-Engineer & <br> <span>Data-Scientist</span></h2>
+                <p>Hello there! 👋 I'm Mohammad Yaseen, an aspiring Machine Learning Engineer and Data Scientist with a passion for solving real-world problems through AI.
+
+                    Currently, I'm pursuing my B.Tech in Artificial Intelligence and Machine Learning at SRKR Engineering College (2022 - 2026). My journey has allowed me to gain expertise in machine learning, deep learning, natural language processing (NLP), and computer vision.
+                    Beyond technical skills, I actively explore emerging trends in ml models, Generative AI, and latest llm models. I'm always eager to learn, adapt, and collaborate on innovative solutions.
+                </p>
+
+                <button class="btn btn-primary">
+                    <a href="https://github.com/yaseen2444" target="_blank">
+                        Know More <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </a>
+                </button>
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+<section class="projects-section" id="projects">
+    <h2>My <span>Projects</span></h2>
+    <div class="projects-scroll-container"> <!-- Scrollable wrapper -->
+    <div class="projects-cards">
+        
+        <!-- Shrimp Seed Counter -->
+        <div class="projects-card-box">
+            <div class="projects-card-box__img">
+                <img src="assets/img/shrimp log.png" alt="Shrimp-Seed-Counter">
+            </div>
+            <div class="projects-card-box__desc">
+                <h4>Shrimp-Seed-Counter</h4>
+                <p>This project uses a <strong>Faster R-CNN</strong> with a <strong>ResNet backbone</strong> to detect <strong>prawn seeds</strong> in images for aquaculture. It integrates <strong>region proposal networks</strong> and <strong>SAHI</strong> to enhance accuracy, especially for small objects. Ideal for automating prawn-seed detection with high precision.</p>
+            </div>
+            <div class="projects-card-box__buttons">
+                <button class="btn btn-dark-outlined">
+                    <a href="https://8503-01jff55mrhm0wpp0h15zrz0tfq.cloudspaces.litng.ai" target="_blank">
+                        View <i class="fa-solid fa-external-link"></i>
+                    </a>
+                </button>
+                <button class="btn btn-dark-outlined">
+                    <a href="https://github.com/yaseen2444/shrimp-seed-count" target="_blank">
+                        GitHub <i class="fa-brands fa-github"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+
+        <!-- Book Recommendation System -->
+        <div class="projects-card-box">
+            <div class="projects-card-box__img">
+                <img src="assets/img/rec.jpg" alt="Book-recommendation system">
+            </div>
+            <div class="projects-card-box__desc">
+                <h4>Book-recommender</h4>
+                <p>This project leverages <strong>machine learning</strong> to build a <strong>Book Recommendation System</strong> that suggests books based on user preferences. It utilizes <strong>collaborative filtering</strong> and <strong>content-based filtering</strong> to provide personalized recommendations. The system analyzes user interactions, book genres, and ratings to enhance recommendation accuracy, helping readers discover books tailored to their interests.</p>
+            </div>
+            <div class="projects-card-box__buttons">
+                <button class="btn btn-dark-outlined">
+                    <a href="https://book-rec-kueasys3vh3k64m3tyjeab.streamlit.app/" target="_blank">
+                        View <i class="fa-solid fa-external-link"></i>
+                    </a>
+                </button>
+                <button class="btn btn-dark-outlined">
+                    <a href="https://github.com/yaseen2444/book-rec.git" target="_blank">
+                        GitHub <i class="fa-brands fa-github"></i>
+                    </a>
+                </button>
+            </div>
+        </div>  
+
+        <!-- Rag builder -->
+        <div class="projects-card-box">
+            <div class="projects-card-box__img">
+                <img src="assets/img/rag.jpg" alt="RAG-Matrix">
+            </div>
+            <div class="projects-card-box__desc">
+                <h4>RAG-Matrix</h4>
+                <p>Multi-RAG Builder is an advanced Retrieval-Augmented Generation (RAG) system that lets users upload PDFs to create unique AI-powered chat applications. Each RAG app has a unique ID, enabling multiple users to chat with their respective document knowledge bases efficiently.🚀</p>
+            </div>
+            <div class="projects-card-box__buttons">
+                <button class="btn btn-dark-outlined">
+                    <a href="https://8501-01jkx05xjy5n6cjh69symqfyag.cloudspaces.litng.ai" target="_blank">
+                        View <i class="fa-solid fa-external-link"></i>
+                    </a>
+                </button>
+                <button class="btn btn-dark-outlined">
+                    <a href="https://github.com/yaseen2444/multi_rag.git" target="_blank">
+                        GitHub <i class="fa-brands fa-github"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <!-- Blog builder -->
+        <div class="projects-card-box">
+            <div class="projects-card-box__img">
+                <img src="assets/img/blog.jpg" alt="BlogForge AI">
+            </div>
+            <div class="projects-card-box__desc">
+                <h4>BlogForge AI</h4>
+                <p>BlogForge AI is an AI-powered blog and documentation generator that helps professionals create engaging, well-structured, and SEO-friendly content with ease. Whether you need a technical tutorial, project documentation, or a general blog post, BlogForge AI leverages Google's Gemini AI to generate high-quality markdown-formatted content. It also includes fact-checking capabilities, markdown export, and an option to publish directly on Medium. 🚀</p>
+            </div>
+            <div class="projects-card-box__buttons">
+                <button class="btn btn-dark-outlined">
+                    <a href="https://8501-01jmbp2eqhgfnvatp1bxa36wwc.cloudspaces.litng.ai" target="_blank">
+                        View <i class="fa-solid fa-external-link"></i>
+                    </a>
+                </button>
+                <button class="btn btn-dark-outlined">
+                    <a href="https://github.com/yaseen2444/BlogForge_AI.git" target="_blank">
+                        GitHub <i class="fa-brands fa-github"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+
+        <!-- promo-->
+        <div class="projects-card-box">
+            <div class="projects-card-box__img">
+                <img src="assets/img/promo.jpg" alt="Smart Promo Background AI">
+            </div>
+            <div class="projects-card-box__desc">
+                <h4>Smart Promo Background AI</h4>
+                <p>This project combines AI-powered background generation with promotional text creation for product images. It utilizes a diffusion-based model to generate backgrounds and the Gemini API to analyze images and generate promotional text. The system then creates different promotional layouts, ensuring visually appealing product advertisements.</p>
+            </div>
+            <div class="projects-card-box__buttons">
+                <button class="btn btn-dark-outlined">
+                    <a href="https://7860-01jm4tyvgnppam6rkjpn4ktgma.cloudspaces.litng.ai" target="_blank">
+                        View <i class="fa-solid fa-external-link"></i>
+                    </a>
+                </button>
+                <button class="btn btn-dark-outlined">
+                    <a href="https://github.com/yaseen2444/banner_build.git" target="_blank">
+                        GitHub <i class="fa-brands fa-github"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+
+    </div> <!-- End of projects-cards div -->
+    </div>
+</section>
+
+        
+        <!-- Blogs Section -->
+        <section class="projects-section" id="blogs">
+            <h2>My <span>Blogs</span></h2>
+            <div class="projects-cards">
+                <div class="projects-card-box">
+                    <div class="projects-card-box__img">
+                        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*kyIP4pgSsoY4gHG46q85fQ.jpeg" alt="“Bridging the Gap: Can AI Conversations Feel Truly Human?”">
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>“Bridging the Gap: Can AI Conversations Feel Truly Human?”</h4>
+                        <p>Human conversations have a natural ebb and flow, with real-time interruptions, clarifications, and adjustments. However, AI interactions often lack this flexibility, as responses are generated linearly without interruption. This article explores the challenges of making Large Language Models (LLMs) more conversationally dynamic, potential solutions, and their effectiveness in mimicking human-like interactions.
+                        </p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://medium.com/gopenai/bridging-the-gap-can-ai-conversations-feel-truly-human-7690db9476a1" target="_blank">Read More <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="projects-card-box">
+                    <div class="projects-card-box__img">
+                        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*h3NpXK6zT_j-esX6JJ0WpA.png" alt="“Edge AI Model Optimization: Making Deep Learning Faster, Smaller & More Efficient”.">
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>“Edge AI Model Optimization: Making Deep Learning Faster, Smaller & More Efficient”.</h4>
+                        <p> Deploying deep learning models on edge devices like smartphones and IoT systems poses challenges due to limited processing power, memory, and battery life. This article explores key optimization techniques—quantization, knowledge distillation, and pruning—that enhance model efficiency while maintaining accuracy. Learn how to apply these methods to make AI solutions faster, smaller, and more suitable for real-world edge applications.
+                        </p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://medium.com/@yaseenmohammadap37/edge-ai-optimization-shrinking-deep-learning-models-for-maximum-efficiency-626296ebf725" target="_blank">Read More <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="projects-card-box">
+                    <div class="projects-card-box__img">
+                        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*GrEdn4WNIHGS6MP52CBVFg.jpeg" alt="“Building a RAG Application from Scratch: Step-by-Step”">
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>““Building a RAG Application from Scratch: Step-by-Step””</h4>
+                       <p>This article provides a step-by-step guide to building a Retrieval-Augmented Generation (RAG) application from scratch. Learn how to integrate retrieval-based techniques with generative AI to enhance response accuracy, optimize performance, and create more context-aware applications. Perfect for developers looking to implement RAG in real-world scenarios.</p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://medium.com/@yaseenmohammadap37/building-a-rag-application-from-scratch-step-by-step-9a9f519254a9" target="_blank">Read More <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="projects-card-box">
+                    <div class="projects-card-box__img">
+                        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*oQJx3AQNqKBnh3ATuy1ZTg.png" alt="The Blind Spots of AI Image Generation: My Surprising Discoveries with DALL-E">
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>“The Blind Spots of AI Image Generation: My Surprising Discoveries with DALL-E”</h4>
+                        <p>This article explores the hidden limitations of AI image generation, based on firsthand experiences with DALL-E. It delves into biases, inconsistencies, and unexpected results that arise when generating images, shedding light on the challenges and surprises of working with AI-driven creativity.</p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://medium.com/gopenai/the-blind-spots-of-ai-image-generation-my-surprising-discoveries-with-dall-e-5129ba042dd2" target="_blank">Read More <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="projects-card-box">
+                    <div class="projects-card-box__img">
+                        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*LJSl4eqIHJGq7nKPZ8Vw_g.png" alt="Automated Shrimp Seed Counting with Deep Learning and SAHI: A Smart Aquaculture Solution">
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>“Automated Shrimp Seed Counting with Deep Learning and SAHI: A Smart Aquaculture Solution”</h4>
+                        <p>This article presents an AI-powered approach to automate shrimp seed counting using deep learning and SAHI (Slicing Aided Hyper Inference). It explores model selection, dataset preparation, and optimization techniques to improve accuracy in real-world aquaculture settings, enhancing efficiency and reducing manual effort.</p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://medium.com/@yaseenmohammadap37/automated-shrimp-seed-counting-with-deep-learning-and-sahi-a-smart-aquaculture-solution-ebfc6ba5cb6b" target="_blank">Read More <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2>Contact <span>ME!</span></h2>
+            <form action="https://formspree.io/f/mgvawbrw" method="POST" id="contact-form">
+                <div>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <textarea name="message" placeholder="Type Message" rows="5" required></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                </div>
+                <p id="success-message" style="display: none; color: green; margin-top: 10px;">
+                    Message sent successfully!
+                </p>
+            </form>
+            <script>
+                document.getElementById("contact-form").addEventListener("submit", function(event) {
+                    event.preventDefault();
+                    var form = this;
+            
+                    fetch(form.action, {
+                        method: form.method,
+                        body: new FormData(form),
+                        headers: { 'Accept': 'application/json' }
+                    }).then(response => {
+                        if (response.ok) {
+                            document.getElementById("success-message").style.display = "block";
+                            form.reset();
+                        } else {
+                            alert("Error! Please try again.");
+                        }
+                    }).catch(error => {
+                        alert("Error! Please check your internet connection.");
+                    });
+                });
+            </script>
+            <div class="contact__github">
+                <button class="btn">
+                    <a href="https://github.com/yaseen2444" target="_blank">
+                        <i class="fa-brands fa-github"></i> Github
+                    </a>
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2025 - <a href="https://github.com/yaseen2444" target="_blank">yaseen</a> - All Rights
+            Reserved.</p>
+        <div class="footer-buttons">
+            <button data-theme="./assets/css/style.css" class="footer__theme1 active-theme">Theme 1</button>
+            <button data-theme="./assets/css/style-two.css" class="footer__theme2">Theme 2</button>
+            <button data-theme="./assets/css/style-three.css" class="footer__theme3">Theme 3</button>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const typedTextSpan = document.querySelector('.typed-text');
+            const cursorSpan = document.querySelector('.cursor');
+            
+            const textArray = [
+    "Yaseen Mohammad", 
+    "a Machine Learning Engineer", 
+    "an AI Researcher", 
+    "a Computer Vision Enthusiast", 
+    "a Deep Learning Developer",  
+    "a Data Science Practitioner"
+];
+            const typingDelay = 100; // Delay between each character
+            const erasingDelay = 50; // Erasing delay
+            const newTextDelay = 2000; // Delay between current and next text
+            let textArrayIndex = 0;
+            let charIndex = 0;
+            
+            function type() {
+                if (charIndex < textArray[textArrayIndex].length) {
+                    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                    charIndex++;
+                    setTimeout(type, typingDelay);
+                } else {
+                    cursorSpan.classList.remove("typing");
+                    setTimeout(erase, newTextDelay);
+                }
+            }
+            
+            function erase() {
+                if (charIndex > 0) {
+                    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+                    charIndex--;
+                    setTimeout(erase, erasingDelay);
+                } else {
+                    cursorSpan.classList.remove("typing");
+                    textArrayIndex++;
+                    if(textArrayIndex >= textArray.length) textArrayIndex = 0;
+                    setTimeout(type, typingDelay + 1100);
+                }
+            }
+            
+            if(textArray.length) setTimeout(type, newTextDelay + 250);
+        });
+    </script>
+
+</body>
+
+</html>
